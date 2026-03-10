@@ -11,7 +11,7 @@ function Donation() {
       </button>
 
       <iframe
-        src="https://your-donation-website.com"
+        src="https://don-xi-drab.vercel.app/"
         style={{ width: "100%", height: "100vh", border: "none" }}
         title="Donation"
       ></iframe>
@@ -30,7 +30,7 @@ function Hospital() {
       </button>
 
       <iframe
-        src="https://your-hospital-website.com"
+        src="https://hos-rouge.vercel.app/"
         style={{ width: "100%", height: "100vh", border: "none" }}
         title="Hospital"
       ></iframe>
