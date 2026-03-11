@@ -31,7 +31,7 @@ function Hospital() {
 
       <iframe
         src="https://hospital-app-zeta-eight.vercel.app/"
-        style={{ width: "100%", height: "100vh", border: "none", color: "black" }}
+        style={{ width: "100%", height: "100vh", border: "none", color: "black", backgroundColor: "white" }}
         title="Hospital"
       ></iframe>
     </div>
