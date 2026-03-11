@@ -11,8 +11,8 @@ function Donation() {
       </button>
 
       <iframe
-        src="https://hos-opal.vercel.app/"
-        style={{ width: "100%", height: "100vh", border: "none" }}
+        src="https://donation-pied.vercel.app/"
+        style={{ width: "100%", height: "100vh", border: "none" , color: "black"}}
         title="Donation"
       ></iframe>
     </div>
@@ -30,8 +30,8 @@ function Hospital() {
       </button>
 
       <iframe
-        src="https://hos-rouge.vercel.app/"
-        style={{ width: "100%", height: "100vh", border: "none" }}
+        src="https://hospital-three-topaz.vercel.app/"
+        style={{ width: "100%", height: "100vh", border: "none", color: "black" }}
         title="Hospital"
       ></iframe>
     </div>
