@@ -30,7 +30,7 @@ function Hospital() {
       </button>
 
       <iframe
-        src="https://hospital-three-topaz.vercel.app/"
+        src="https://hospital-app-zeta-eight.vercel.app/"
         style={{ width: "100%", height: "100vh", border: "none", color: "black" }}
         title="Hospital"
       ></iframe>
