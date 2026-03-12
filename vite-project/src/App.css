@@ -5,6 +5,36 @@
   text-align: center;
 }
 
+
+.switch-btn {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  z-index: 9999;
+
+  background: #ff9f1c;       /* orange */
+  color: #000;               /* black text */
+
+  border: none;
+  padding: 10px 20px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  border-radius: 30px;       /* rounded button */
+
+  cursor: pointer;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+  transition: all 0.3s ease;
+}
+
+.switch-btn:hover {
+  background: #ffb347;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
 .logo {
   height: 6em;
   padding: 1.5em;

@@ -1,18 +1,19 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css"; // Make sure this imports the CSS below
 
 function Donation() {
   return (
     <div>
       <button
-        style={{ position: "fixed", top: "10px", right: "10px", zIndex: 999 }}
-        onClick={() => window.location.href = "/hospital"}
+        className="switch-btn"
+        onClick={() => (window.location.href = "/hospital")}
       >
-        Hospital
+        Go to Hospital 🏥
       </button>
 
       <iframe
         src="https://donation-pied.vercel.app/"
-        style={{ width: "100%", height: "100vh", border: "none" , color: "black"}}
+        style={{ width: "100%", height: "100vh", border: "none" }}
         title="Donation"
       ></iframe>
     </div>
@@ -23,15 +24,15 @@ function Hospital() {
   return (
     <div>
       <button
-        style={{ position: "fixed", top: "10px", right: "10px", zIndex: 999 }}
-        onClick={() => window.location.href = "/"}
+        className="switch-btn"
+        onClick={() => (window.location.href = "/")}
       >
-        Donation
+        Go to Donation ❤️
       </button>
 
       <iframe
         src="https://hospital-app-zeta-eight.vercel.app/"
-        style={{ width: "100%", height: "100vh", border: "none", color: "black", backgroundColor: "white" }}
+        style={{ width: "100%", height: "100vh", border: "none" }}
         title="Hospital"
       ></iframe>
     </div>
