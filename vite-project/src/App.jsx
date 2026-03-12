@@ -2,17 +2,29 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function Donation() {
   return (
-    <div className="switch-btn">
+    <div>
       <button
-        style={{ position: "fixed", top: "10px", right: "10px", zIndex: 999 }}
-        onClick={() => window.location.href = "/hospital"}
+        style={{
+          position: "fixed",
+          top: "10px",
+          right: "10px",
+          zIndex: 999,
+          backgroundColor: "#ff9f1c", // orange background
+          color: "#000",              // black text
+          border: "none",
+          padding: "10px 20px",
+          borderRadius: "8px",
+          cursor: "pointer",
+          fontWeight: "bold",
+        }}
+        onClick={() => (window.location.href = "/hospital")}
       >
         Hospital
       </button>
 
       <iframe
         src="https://donation-pied.vercel.app/"
-        style={{ width: "100%", height: "100vh", border: "none" , color: "black"}}
+        style={{ width: "100%", height: "100vh", border: "none" }}
         title="Donation"
       ></iframe>
     </div>
@@ -21,17 +33,29 @@ function Donation() {
 
 function Hospital() {
   return (
-    <div className="switch-btn">
+    <div>
       <button
-        style={{ position: "fixed", top: "10px", right: "10px", zIndex: 999 }}
-        onClick={() => window.location.href = "/"}
+        style={{
+          position: "fixed",
+          top: "10px",
+          right: "10px",
+          zIndex: 999,
+          backgroundColor: "#ff9f1c", // orange background
+          color: "#000",              // black text
+          border: "none",
+          padding: "10px 20px",
+          borderRadius: "8px",
+          cursor: "pointer",
+          fontWeight: "bold",
+        }}
+        onClick={() => (window.location.href = "/")}
       >
         Donation
       </button>
 
       <iframe
         src="https://hospital-app-zeta-eight.vercel.app/"
-        style={{ width: "100%", height: "100vh", border: "none", color: "black", backgroundColor: "white" }}
+        style={{ width: "100%", height: "100vh", border: "none" }}
         title="Hospital"
       ></iframe>
     </div>
