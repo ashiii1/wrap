@@ -41,7 +41,7 @@ function Hospital() {
           right: "10px",
           zIndex: 999,
           backgroundColor: "#370139ff", // orange background
-          color: "#000",              // black text
+          color: "#ffffffff",              // black text
           border: "none",
           padding: "10px 20px",
           borderRadius: "8px",
