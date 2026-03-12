@@ -8,7 +8,7 @@ function Donation() {
         className="switch-btn"
         onClick={() => (window.location.href = "/hospital")}
       >
-        Go to Hospital 🏥
+        Hospital
       </button>
 
       <iframe
@@ -27,7 +27,7 @@ function Hospital() {
         className="switch-btn"
         onClick={() => (window.location.href = "/")}
       >
-        Go to Donation ❤️
+        Donation
       </button>
 
       <iframe
